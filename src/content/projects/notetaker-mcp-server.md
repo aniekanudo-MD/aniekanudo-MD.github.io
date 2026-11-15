@@ -2,12 +2,12 @@
 title: "Notetaker Mcp Server"
 repo: "aniekanudo-MD/Notetaker-MCP-Server"
 category: "MLOps & Tools"
-description: "MCP server with tools for manipulating notes and support for Claude desktop"
+description: "An MCP (Model Context Protocol) server that turns Claude Desktop into your personal note-taking assistant. Add notes, read them back, search through them, and get AI-generated summaries — all through natural conversation. A `notebook.txt` is automatically created when you first run the project."
 excerpt: "An MCP (Model Context Protocol) server that turns Claude Desktop into your personal note-taking assistant. Add notes, read them back, search through them, and get AI-generated summaries — all through natural conversation. A `notebook.txt` is automatically created when you first run the project."
 thumbnail: "/default-thumbnail.svg"
 githubUrl: "https://github.com/aniekanudo-MD/Notetaker-MCP-Server"
-stars: 2
-language: "Python"
+stars: 0
+language: ""
 featured: false
 priority: 7
 tags: []

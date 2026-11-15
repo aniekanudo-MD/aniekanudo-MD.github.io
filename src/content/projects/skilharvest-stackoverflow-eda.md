@@ -2,12 +2,12 @@
 title: "Skilharvest Stackoverflow Eda"
 repo: "aniekanudo-MD/skilharvest_stackoverflow_EDA"
 category: "Data Science"
-description: "A repository for Streamlit EDA dashboard build on Stackoverflow developer survey 2023 data"
+description: "An interactive Streamlit dashboard for exploring the Stack Overflow Developer Survey 2023 data. Visualize developer demographics, technology preferences, AI tool adoption, and salary insights through multi-page interactive charts with smart data processing for complex survey responses."
 excerpt: "An interactive Streamlit dashboard for exploring the Stack Overflow Developer Survey 2023 data. Visualize developer demographics, technology preferences, AI tool adoption, and salary insights through multi-page interactive charts with smart data processing for complex survey responses."
 thumbnail: "/default-thumbnail.svg"
 githubUrl: "https://github.com/aniekanudo-MD/skilharvest_stackoverflow_EDA"
 stars: 0
-language: "Jupyter Notebook"
+language: ""
 featured: false
 priority: 11
 tags: []

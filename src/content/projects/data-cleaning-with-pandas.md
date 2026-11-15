@@ -2,12 +2,12 @@
 title: "Data Cleaning With Pandas"
 repo: "aniekanudo-MD/Data_cleaning_with_Pandas"
 category: "Data Science"
-description: "This repository contains the raw csv file, cleaned version of the csv file and the .ipynb file used in cleaning the data."
+description: "A data cleaning project that transforms a messy sales dataset into a clean, analysis-ready format using Pandas. Demonstrates essential data preprocessing techniques including duplicate removal, missing value handling, outlier detection, and data type standardization — all documented in a Jupyter..."
 excerpt: "A data cleaning project that transforms a messy sales dataset into a clean, analysis-ready format using Pandas. Demonstrates essential data preprocessing techniques including duplicate removal, missing value handling, outlier detection, and data type standardization — all documented in a Jupyter..."
 thumbnail: "/default-thumbnail.svg"
 githubUrl: "https://github.com/aniekanudo-MD/Data_cleaning_with_Pandas"
 stars: 0
-language: "Jupyter Notebook"
+language: ""
 featured: false
 priority: 13
 tags: []

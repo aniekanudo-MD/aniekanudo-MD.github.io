@@ -2,12 +2,12 @@
 title: "Skilharvest Ml Cancer Prediction"
 repo: "aniekanudo-MD/skilharvest_ml_cancer_prediction"
 category: "Data Science"
-description: "This repository contains the files SVM model cancer prediction software with a Streamlit interface"
+description: "A machine learning application that predicts breast cancer diagnosis using Support Vector Machine (SVM) classification. The model analyzes 23 histology parameters (radius, texture, perimeter, area, smoothness, compactness, concavity, symmetry, fractal dimension) to classify tumors as **Benign** or..."
 excerpt: "A machine learning application that predicts breast cancer diagnosis using Support Vector Machine (SVM) classification. The model analyzes 23 histology parameters (radius, texture, perimeter, area, smoothness, compactness, concavity, symmetry, fractal dimension) to classify tumors as **Benign** or..."
 thumbnail: "/default-thumbnail.svg"
 githubUrl: "https://github.com/aniekanudo-MD/skilharvest_ml_cancer_prediction"
 stars: 0
-language: "Jupyter Notebook"
+language: ""
 featured: false
 priority: 10
 tags: []

@@ -218,29 +218,6 @@ def rewrite_image_paths(readme: str, owner: str, repo: str) -> str:
     return readme
 
 
-OLD_USERNAMES = ("dr-aniekan-udo",)
-
-
-def rewrite_old_username(text: str, owner: str) -> str:
-    """Point links that still use a previous GitHub username at the current owner."""
-    for old_username in OLD_USERNAMES:
-        if old_username == owner.lower():
-            continue
-        text = re.sub(
-            rf'(github\.com/){re.escape(old_username)}/',
-            rf'\g<1>{owner}/',
-            text,
-            flags=re.IGNORECASE,
-        )
-        text = re.sub(
-            rf'(githubusercontent\.com/){re.escape(old_username)}/',
-            rf'\g<1>{owner}/',
-            text,
-            flags=re.IGNORECASE,
-        )
-    return text
-
-
 def slugify(text: str) -> str:
     """Convert repo name to URL slug."""
     return re.sub(r'[^a-z0-9]+', '-', text.lower()).strip('-')
@@ -358,7 +335,6 @@ def sync_projects():
             f.write(f"# {frontmatter['title']}\n\n")
             if readme:
                 readme = rewrite_image_paths(readme, owner, repo)
-                readme = rewrite_old_username(readme, owner)
                 f.write(readme)
             else:
                 f.write("No README content available.\n")

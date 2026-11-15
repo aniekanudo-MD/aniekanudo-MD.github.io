@@ -2,12 +2,12 @@
 title: "Full Ml Project"
 repo: "aniekanudo-MD/full_ml_project"
 category: "Machine Learning"
-description: ""
+description: "An end-to-end machine learning project that predicts student math scores based on demographic and educational factors. The project analyzes how variables like gender, ethnicity, parental education, lunch type, and test preparation course affect student performance across math, reading, and writing..."
 excerpt: "An end-to-end machine learning project that predicts student math scores based on demographic and educational factors. The project analyzes how variables like gender, ethnicity, parental education, lunch type, and test preparation course affect student performance across math, reading, and writing..."
 thumbnail: "/default-thumbnail.svg"
 githubUrl: "https://github.com/aniekanudo-MD/full_ml_project"
 stars: 0
-language: "Jupyter Notebook"
+language: ""
 featured: false
 priority: 8
 tags: []

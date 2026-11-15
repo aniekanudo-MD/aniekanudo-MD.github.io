@@ -2,12 +2,12 @@
 title: "Adidas Store Sales"
 repo: "aniekanudo-MD/Adidas_store_sales"
 category: "Data Science"
-description: "This repository contains the raw csv file, .py file and an image folder of Adidas store EDA created with streamlit"
+description: "An interactive Streamlit dashboard for exploring Adidas store sales data. Visualize sales performance by retailer, track monthly revenue trends, and download filtered data — all through an intuitive web interface with real-time chart rendering."
 excerpt: "An interactive Streamlit dashboard for exploring Adidas store sales data. Visualize sales performance by retailer, track monthly revenue trends, and download filtered data — all through an intuitive web interface with real-time chart rendering."
 thumbnail: "/default-thumbnail.svg"
 githubUrl: "https://github.com/aniekanudo-MD/Adidas_store_sales"
 stars: 0
-language: "Python"
+language: ""
 featured: false
 priority: 12
 tags: []

@@ -126,7 +126,7 @@ PostgreSQL 16+
 Redis
 Planned Setup
 # Clone the repository
-git clone https://github.com/aniekanudo-MD/social-automation.git
+git clone https://github.com/Dr-Aniekan-Udo/social-automation.git
 cd social-automation
 # Backend (planned)
 cd backend

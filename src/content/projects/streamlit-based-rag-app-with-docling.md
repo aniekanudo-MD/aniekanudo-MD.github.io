@@ -2,12 +2,12 @@
 title: "Streamlit Based Rag App With Docling"
 repo: "aniekanudo-MD/Streamlit-based-RAG-app-with-Docling"
 category: "AI & Agents"
-description: "A powerful Streamlit application that transforms your documents into an intelligent chatbot using Docling for document processing, Chroma for vector database and LangGraph for conversational AI"
+description: "A powerful Streamlit application that transforms your documents into an intelligent chatbot using Docling for document processing and LangGraph for conversational AI."
 excerpt: "A powerful Streamlit application that transforms your documents into an intelligent chatbot using Docling for document processing and LangGraph for conversational AI."
 thumbnail: "/default-thumbnail.svg"
 githubUrl: "https://github.com/aniekanudo-MD/Streamlit-based-RAG-app-with-Docling"
 stars: 0
-language: "Python"
+language: ""
 featured: false
 priority: 6
 tags: []
