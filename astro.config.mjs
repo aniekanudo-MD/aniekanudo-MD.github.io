@@ -3,7 +3,7 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://dr-aniekan-udo.github.io',
+  site: 'https://aniekanudo-md.github.io',
   output: 'static',
   integrations: [
     tailwind({

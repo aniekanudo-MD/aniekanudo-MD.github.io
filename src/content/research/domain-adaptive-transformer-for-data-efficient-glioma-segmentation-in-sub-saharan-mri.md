@@ -1,12 +1,26 @@
 ---
 title: "Domain-Adaptive Transformer for Data-Efficient Glioma Segmentation in Sub-Saharan MRI"
-authors: ""
-venue: ""
-arxiv: ""
-date: ""
-abstract: ""
-methodology: []
-conclusion: ""
+authors: "Ilerioluwakiiye Abolade, Aniekan Udo, Augustine Ojo, Abdulbasit Oyetunji, Hammed Ajigbotosho, Aondana Iorumbur, Confidence Raymond, Maruf Adewole"
+venue: "WiML Workshop, NeurIPS 2025"
+arxiv: "2511.02928"
+date: "November 2025"
+abstract: "Glioma segmentation is critical for diagnosis and treatment planning, yet remains challenging in Sub-Saharan Africa due to limited MRI infrastructure and heterogeneous acquisition protocols that induce severe domain shift. We propose SegFormer3D-plus, a radiomics-guided transformer architecture designed for robust segmentation under domain variability.
+
+Our method combines: (1) histogram matching for intensity harmonization across scanners, (2) radiomic feature extraction with PCA-reduced k-means for domain-aware stratified sampling, (3) a dual-pathway encoder with frequency-aware feature extraction and spatial-channel attention, and (4) composite Dice-Cross-Entropy loss for boundary refinement.
+
+Pretrained on BraTS 2023 and fine-tuned on BraTS-Africa data, SegFormer3D-plus demonstrates improved tumor subregion delineation and boundary localization across heterogeneous African clinical scans, highlighting the value of radiomics-guided domain adaptation for resource-limited settings."
+methodology:
+  - "Histogram matching for intensity harmonization across scanners"
+  - "Radiomic feature extraction with PCA-reduced k-means for domain-aware stratified sampling"
+  - "Dual-pathway encoder with frequency-aware feature extraction and spatial-channel attention"
+  - "Composite Dice-Cross-Entropy loss for boundary refinement"
+conclusion: "SegFormer3D-plus achieves state-of-the-art performance on BraTS-Africa benchmark, demonstrating:
+- Improved tumor subregion delineation (WT, TC, ET)
+- Better boundary localization compared to baseline models
+- Robust performance across heterogeneous African clinical scans
+- Effective domain adaptation from BraTS 2023 to BraTS-Africa with minimal fine-tuning data
+
+This work highlights the potential of radiomics-guided domain adaptation for medical AI in resource-limited settings, providing a pathway for accurate glioma segmentation where annotated data is scarce."
 tags:
   - "Medical AI"
   - "Computer Vision"
@@ -16,14 +30,19 @@ tags:
   - "SegFormer3D"
   - "Radiomics"
   - "Sub-Saharan Africa"
-  - "Healthcare Technology"
   - "MRI"
   - "Neuro-oncology"
   - "WiML"
   - "NeurIPS 2025"
 thumbnail: "/default-thumbnail.svg"
-repo: "Dr-Aniekan-Udo/glioma-segmentation-paper"
+repo: "aniekanudo-MD/glioma-segmentation-paper"
 featured: true
 priority: 1
 ---
+
+Glioma segmentation is critical for diagnosis and treatment planning, yet remains challenging in Sub-Saharan Africa due to limited MRI infrastructure and heterogeneous acquisition protocols that induce severe domain shift. We propose SegFormer3D-plus, a radiomics-guided transformer architecture designed for robust segmentation under domain variability.
+
+Our method combines: (1) histogram matching for intensity harmonization across scanners, (2) radiomic feature extraction with PCA-reduced k-means for domain-aware stratified sampling, (3) a dual-pathway encoder with frequency-aware feature extraction and spatial-channel attention, and (4) composite Dice-Cross-Entropy loss for boundary refinement.
+
+Pretrained on BraTS 2023 and fine-tuned on BraTS-Africa data, SegFormer3D-plus demonstrates improved tumor subregion delineation and boundary localization across heterogeneous African clinical scans, highlighting the value of radiomics-guided domain adaptation for resource-limited settings.
 

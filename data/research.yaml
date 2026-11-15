@@ -1,6 +1,6 @@
 research:
   # Option A: Auto-sync from repo (recommended)
-  - repo: "Dr-Aniekan-Udo/glioma-segmentation-paper"
+  - repo: "aniekanudo-MD/glioma-segmentation-paper"
     autoSync: true
     featured: true
     priority: 1
@@ -20,7 +20,7 @@ research:
   #   priority: 2
 
   # Option C: Repo with manual override
-  # - repo: "Dr-Aniekan-Udo/future-paper"
+  # - repo: "aniekanudo-MD/future-paper"
   #   autoSync: true
   #   featured: true
   #   priority: 3

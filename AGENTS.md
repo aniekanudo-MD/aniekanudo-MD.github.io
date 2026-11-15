@@ -149,7 +149,7 @@ Edit `projects.yaml`:
 
 ```yaml
 projects:
-  - repo: Dr-Aniekan-Udo/your-new-repo
+  - repo: aniekanudo-MD/your-new-repo
     category: "Fullstack"
     featured: true      # optional: highlights on grid
     priority: 1         # optional: sort order (lower = first)
@@ -187,7 +187,7 @@ gh workflow run build-and-deploy.yml
 curl -X POST \
   -H "Authorization: token YOUR_GITHUB_TOKEN" \
   -H "Accept: application/vnd.github.v3+json" \
-  https://api.github.com/repos/Dr-Aniekan-Udo/dr-aniekan-udo.github.io/actions/workflows/build-and-deploy.yml/dispatches \
+  https://api.github.com/repos/aniekanudo-MD/aniekanudo-MD.github.io/actions/workflows/build-and-deploy.yml/dispatches \
   -d '{"ref":"main"}'
 ```
 
@@ -199,7 +199,7 @@ curl -X POST \
 2. Add to `data/research.yaml`:
 ```yaml
 research:
-  - repo: "Dr-Aniekan-Udo/your-research-repo"
+  - repo: "aniekanudo-MD/your-research-repo"
     autoSync: true
     featured: true
     priority: 1
@@ -225,7 +225,7 @@ research:
 **Option C: Repo with manual override**
 ```yaml
 research:
-  - repo: "Dr-Aniekan-Udo/future-paper"
+  - repo: "aniekanudo-MD/future-paper"
     autoSync: true
     featured: true
     priority: 3

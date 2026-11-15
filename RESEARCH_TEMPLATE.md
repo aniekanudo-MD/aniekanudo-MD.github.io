@@ -94,7 +94,7 @@ After creating a research repo with this template:
 1. Add the repo to `data/research.yaml`:
 ```yaml
 research:
-  - repo: "Dr-Aniekan-Udo/your-research-repo"
+  - repo: "aniekanudo-MD/your-research-repo"
     autoSync: true
     featured: true
     priority: 1

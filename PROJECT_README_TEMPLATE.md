@@ -116,7 +116,7 @@ After creating a project repo with this template:
 1. Add the repo to `projects.yaml`:
 ```yaml
 projects:
-  - repo: Dr-Aniekan-Udo/your-project-repo
+  - repo: aniekanudo-MD/your-project-repo
     category: "Fullstack"
     featured: true
     priority: 1

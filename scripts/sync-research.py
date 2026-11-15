@@ -94,14 +94,15 @@ def parse_keywords(section: str) -> list:
 
 
 def download_thumbnail(repo: str, thumbnail_path: str) -> str:
-    """Download thumbnail image from repo. Returns local path or empty string."""
+    """Download thumbnail image from repo. Returns local path, or the placeholder on failure."""
+    placeholder = "/default-thumbnail.svg"
     if not thumbnail_path:
-        return ""
-    
+        return placeholder
+
     url = f"{GITHUB_RAW_BASE}/{repo}/main/{thumbnail_path}"
     filename = Path(thumbnail_path).name
     local_path = PUBLIC_RESEARCH_DIR / filename
-    
+
     try:
         urllib.request.urlretrieve(url, str(local_path))
         log(f"Downloaded thumbnail: {filename}")
@@ -114,8 +115,8 @@ def download_thumbnail(repo: str, thumbnail_path: str) -> str:
             log(f"Downloaded thumbnail: {filename}")
             return f"/research/{filename}"
         except Exception as e:
-            log(f"WARNING: Could not download thumbnail for {repo}: {e}")
-            return ""
+            log(f"WARNING: Could not download thumbnail for {repo}: {e} - using placeholder")
+            return placeholder
 
 
 def slugify(text: str) -> str:

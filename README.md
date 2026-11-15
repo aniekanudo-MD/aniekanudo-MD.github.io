@@ -61,7 +61,7 @@ gh workflow run build-and-deploy.yml
 curl -X POST \
   -H "Authorization: token YOUR_GITHUB_TOKEN" \
   -H "Accept: application/vnd.github.v3+json" \
-  https://api.github.com/repos/Dr-Aniekan-Udo/dr-aniekan-udo.github.io/actions/workflows/build-and-deploy.yml/dispatches \
+  https://api.github.com/repos/aniekanudo-MD/aniekanudo-MD.github.io/actions/workflows/build-and-deploy.yml/dispatches \
   -d '{"ref":"main"}'
 ```
 
